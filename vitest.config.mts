@@ -1,0 +1,28 @@
+/// <reference types="vitest/config" />
+import { defineConfig, mergeConfig } from "vitest/config";
+import { config as viteConfig } from "./vite.config.mts";
+
+export default mergeConfig(
+  viteConfig,
+  defineConfig({
+    // Override root to run tests from project root, not src/
+    root: ".",
+    test: {
+      globals: true,
+      environment: "node",
+      include: ["src/**/*.spec.ts"],
+      exclude: ["**/node_modules/**", "**/.local/**"],
+      setupFiles: ["./vitest.setup.ts"],
+      reporters: ["default", "junit"],
+      outputFile: {
+        junit: "./junit.xml",
+      },
+      coverage: {
+        provider: "v8",
+        reporter: ["text", "text-summary", "lcov", "cobertura"],
+        include: ["src/**/*.{js,jsx,ts,tsx}"],
+        exclude: ["src/**/*.d.ts", "src/**/*.spec.ts"],
+      },
+    },
+  })
+);

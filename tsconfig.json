@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "sourceMap": true,
+    "outDir": "./.local/vite/dist",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "pages/*": ["./src/pages/*"],
+      "server/*": ["./src/server/*"],
+      "styles/*": ["./src/styles/*"],
+      "typings/*": ["./src/typings/*"],
+      "utils/*": ["./src/utils/*"]
+    },
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "isolatedModules": true,
+    "incremental": true,
+    "allowJs": true,
+    "lib": ["dom", "esnext"],
+    "types": ["vite/client", "node", "vitest/globals", "react", "react-dom"],
+    "typeRoots": ["./node_modules/@types", "./src/typings", "./node_modules"],
+    "skipLibCheck": true /* Skip type checking all .d.ts files. true is recommended */
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts"],
+  "exclude": ["node_modules", ".local", "public", "static"]
+}
