@@ -32,6 +32,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@auth/core": "^0.41.3",
     "cors": "2.8.6",
     "express": "5.2.1",
     "lodash": "4.18.1",
@@ -40,6 +41,9 @@
     "react-router": "7.18.0"
   },
   "devDependencies": {
+    "@eslint/compat": "2.1.0",
+    "@eslint/eslintrc": "3.3.5",
+    "@eslint/js": "9.39.4",
     "@types/cors": "2.8.19",
     "@types/css-modules": "1.0.5",
     "@types/express": "5.0.6",
@@ -48,9 +52,6 @@
     "@types/react-dom": "19.2.3",
     "@typescript-eslint/eslint-plugin": "8.62.0",
     "@typescript-eslint/parser": "8.62.0",
-    "@eslint/compat": "2.1.0",
-    "@eslint/eslintrc": "3.3.5",
-    "@eslint/js": "9.39.4",
     "@vitejs/plugin-react": "6.0.3",
     "@vitest/coverage-v8": "4.1.9",
     "concurrently": "10.0.3",

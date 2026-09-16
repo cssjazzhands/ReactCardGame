@@ -21,3 +21,14 @@ type MissionStats = {
   completed: number;
   planned: number;
 };
+
+type CritterRarity = "Common" | "Uncommon" | "Rare" | "Ultra Rare" | "Legendary";
+
+type CritterType = {
+  id: string;
+  fieldName: string;
+  latinName: string;
+  rarity: CritterRarity;
+  imageURL: string;
+  tags: string[];
+}
