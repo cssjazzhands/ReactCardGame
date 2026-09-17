@@ -15,13 +15,17 @@ export function getMissionsByStatus(missions: MissionType[], status: MissionStat
   return missions.filter((m) => m.status === status);
 }
 
-export function getMissionStats(missions: MissionType[]): MissionStats {
-  return {
-    total: missions.length,
-    active: missions.filter((m) => m.status === "active").length,
-    completed: missions.filter((m) => m.status === "completed").length,
-    planned: missions.filter((m) => m.status === "planned").length,
-  };
+export function getCritterStats(critters: CritterType[], rarities: CritterRarity[]): CritterRarityStats {
+  const statMap: CritterRarityStats = rarities.reduce((acc, rarity) => {
+    acc[rarity] = 0;
+    return acc;
+  }, { total: 0 } as CritterRarityStats);
+
+  critters.forEach((critter) => {
+    statMap[critter.rarity]++;
+    statMap.total++;
+  });
+  return statMap;
 }
 
 export function formatLaunchAge(launchDateStr: string, refDate?: Date): string {

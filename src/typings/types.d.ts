@@ -15,14 +15,15 @@ type MissionType = {
   description: string;
 };
 
-type MissionStats = {
-  total: number;
-  active: number;
-  completed: number;
-  planned: number;
+type CritterRarity = "Common" | "Uncommon" | "Rare" | "Ultra Rare" | "Legendary";
+
+type CritterStatsMap = {
+  [K in keyof typeof CritterRarity]: number;
 };
 
-type CritterRarity = "Common" | "Uncommon" | "Rare" | "Ultra Rare" | "Legendary";
+type CritterRarityStats = {
+  total: number;
+} & CritterStatsMap;
 
 type CritterType = {
   id: string;

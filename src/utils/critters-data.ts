@@ -1,3 +1,11 @@
+export const CRITTER_RARITIES: string[] = [
+  "Common",
+  "Uncommon",
+  "Rare",
+  "Ultra Rare",
+  "Legendary"
+];
+
 export const CRITTERS: CritterType[] = [
   {
     "id": "monarch_butterfly",

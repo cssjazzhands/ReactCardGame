@@ -1,0 +1,29 @@
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.active {
+  background: #14532d;
+  color: #86efac;
+  border: 1px solid #166534;
+}
+
+.completed {
+  background: #1e3a8a;
+  color: #93c5fd;
+  border: 1px solid #1e40af;
+}
+
+.planned {
+  background: #581c87;
+  color: #d8b4fe;
+  border: 1px solid #6b21a8;
+}

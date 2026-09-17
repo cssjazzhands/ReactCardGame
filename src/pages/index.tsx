@@ -1,16 +1,17 @@
 import { useState, useEffect, JSX } from "react";
 import styles from "./index.module.css";
-import MissionCard from "components/MissionCard";
+import CritterCard from "components/CritterCard";
 import TechStackModal from "pages/testroute";
-import { getMissionStats } from "utils/utils";
+import { getCritterStats } from "utils/utils";
+import { CRITTER_RARITIES } from "utils/critters-data";
 
-const FILTERS = ["all", "active", "completed", "planned"] as const;
+const FILTERS = ["all", ...CRITTER_RARITIES];
 type Filter = (typeof FILTERS)[number];
 
 type ApiEntry = { endpoint: string; status: number; ms: number };
 
 const HomePage = (): JSX.Element => {
-  const [missions, setMissions] = useState<MissionType[]>([]);
+  const [critters, setCritters] = useState<CritterType[]>([]);
   const [versionInfo, setVersionInfo] = useState<RespExampleType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -24,25 +25,25 @@ const HomePage = (): JSX.Element => {
     async function loadData() {
       const t0 = Date.now();
       try {
-        const [missionsRes, versionRes] = await Promise.all([
-          fetch("/api/v1/missions"),
+        const [crittersRes, versionRes] = await Promise.all([
+          fetch("/api/v1/critters"),
           fetch("/api/v1/version"),
         ]);
         const ms = Date.now() - t0;
-        const missionsData: MissionType[] = await missionsRes.json();
+        const crittersData: CritterType[] = await crittersRes.json();
         const versionData: RespExampleType = await versionRes.json();
-        setMissions(missionsData);
+        setCritters(crittersData);
         setVersionInfo(versionData);
         setApiLog([
-          { endpoint: "/api/v1/missions", status: missionsRes.status, ms },
+          { endpoint: "/api/v1/critters", status: crittersRes.status, ms },
           { endpoint: "/api/v1/version", status: versionRes.status, ms },
         ]);
         setRawResponses({
-          "/api/v1/missions": JSON.stringify(missionsData, null, 2),
+          "/api/v1/missions": JSON.stringify(crittersData, null, 2),
           "/api/v1/version": JSON.stringify(versionData, null, 2),
         });
       } catch {
-        setError("Failed to load mission data. Is the API server running?");
+        setError("Failed to load data. Is the API server running?");
       } finally {
         setLoading(false);
       }
@@ -59,8 +60,8 @@ const HomePage = (): JSX.Element => {
     });
   }
 
-  const stats = getMissionStats(missions);
-  const filtered = filter === "all" ? missions : missions.filter((m) => m.status === filter);
+  const stats = getCritterStats(critters, CRITTER_RARITIES as CritterRarity[]);
+  const filtered = filter === "all" ? critters : critters.filter((c) => c.rarity === filter);
 
   return (
     <div className={styles.page}>
@@ -140,8 +141,8 @@ const HomePage = (): JSX.Element => {
           </div>
 
           <div className={styles.grid}>
-            {filtered.map((mission) => (
-              <MissionCard key={mission.id} mission={mission} />
+            {filtered.map((critter) => (
+              <CritterCard key={critter.id} critter={critter} />
             ))}
           </div>
 

@@ -3,6 +3,7 @@ import express, { Application } from "express";
 import cors from "cors";
 import { Request, Response } from "express";
 import missionsRouter from "./routes/missions";
+import crittersRouter from "./routes/critters";
 
 const app: Application = express();
 
@@ -25,6 +26,7 @@ app.get(`/api/v1/version`, (_req: Request, res: Response) => {
 });
 
 app.use("/api/v1/missions", missionsRouter);
+app.use("/api/v1/critters", crittersRouter);
 
 app.use(express.static("./.local/vite/dist"));
 
