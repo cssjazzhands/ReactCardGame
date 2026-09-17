@@ -15,7 +15,7 @@ type MissionType = {
   description: string;
 };
 
-type CritterRarity = "Common" | "Uncommon" | "Rare" | "Ultra Rare" | "Legendary";
+type CritterRarity = "common" | "uncommon" | "rare" | "ultra rare" | "legendary";
 
 type CritterStatsMap = {
   [K in keyof typeof CritterRarity]: number;

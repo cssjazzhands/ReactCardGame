@@ -1,9 +1,9 @@
 export const CRITTER_RARITIES: string[] = [
-  "Common",
-  "Uncommon",
-  "Rare",
-  "Ultra Rare",
-  "Legendary"
+  "common",
+  "uncommon",
+  "rare",
+  "ultra rare",
+  "legendary"
 ];
 
 export const CRITTERS: CritterType[] = [
@@ -11,7 +11,7 @@ export const CRITTERS: CritterType[] = [
     "id": "monarch_butterfly",
     "fieldName": "Monarch butterfly",
     "latinName": "Danaus plexippus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Monarch%20butterfly%20Danaus%20plexippus",
     "tags": [
       "butterfly"
@@ -21,7 +21,7 @@ export const CRITTERS: CritterType[] = [
     "id": "painted_lady",
     "fieldName": "Painted lady",
     "latinName": "Vanessa cardui",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Painted%20lady%20Vanessa%20cardui",
     "tags": [
       "butterfly"
@@ -31,7 +31,7 @@ export const CRITTERS: CritterType[] = [
     "id": "red_admiral",
     "fieldName": "Red admiral",
     "latinName": "Vanessa atalanta",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Red%20admiral%20Vanessa%20atalanta",
     "tags": [
       "butterfly"
@@ -41,7 +41,7 @@ export const CRITTERS: CritterType[] = [
     "id": "mourning_cloak",
     "fieldName": "Mourning cloak",
     "latinName": "Nymphalis antiopa",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mourning%20cloak%20Nymphalis%20antiopa",
     "tags": [
       "butterfly"
@@ -49,10 +49,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_buckeye",
-    "fieldName": "Common buckeye",
+    "fieldName": "common buckeye",
     "latinName": "Junonia coenia",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20buckeye%20Junonia%20coenia",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20buckeye%20Junonia%20coenia",
     "tags": [
       "butterfly"
     ]
@@ -61,7 +61,7 @@ export const CRITTERS: CritterType[] = [
     "id": "peacock_butterfly",
     "fieldName": "Peacock butterfly",
     "latinName": "Aglais io",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Peacock%20butterfly%20Aglais%20io",
     "tags": [
       "butterfly"
@@ -71,7 +71,7 @@ export const CRITTERS: CritterType[] = [
     "id": "small_tortoiseshell",
     "fieldName": "Small tortoiseshell",
     "latinName": "Aglais urticae",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Small%20tortoiseshell%20Aglais%20urticae",
     "tags": [
       "butterfly"
@@ -81,7 +81,7 @@ export const CRITTERS: CritterType[] = [
     "id": "red_spotted_purple",
     "fieldName": "Red-spotted purple",
     "latinName": "Limenitis arthemis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Red-spotted%20purple%20Limenitis%20arthemis",
     "tags": [
       "butterfly"
@@ -91,7 +91,7 @@ export const CRITTERS: CritterType[] = [
     "id": "viceroy",
     "fieldName": "Viceroy",
     "latinName": "Limenitis archippus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Viceroy%20Limenitis%20archippus",
     "tags": [
       "butterfly"
@@ -99,10 +99,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_swallowtail",
-    "fieldName": "Common swallowtail",
+    "fieldName": "common swallowtail",
     "latinName": "Papilio machaon",
-    "rarity": "Uncommon",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20swallowtail%20Papilio%20machaon",
+    "rarity": "uncommon",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20swallowtail%20Papilio%20machaon",
     "tags": [
       "butterfly",
       "swallowtail"
@@ -112,7 +112,7 @@ export const CRITTERS: CritterType[] = [
     "id": "eastern_tiger_swallowtail",
     "fieldName": "Eastern tiger swallowtail",
     "latinName": "Papilio glaucus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Eastern%20tiger%20swallowtail%20Papilio%20glaucus",
     "tags": [
       "butterfly",
@@ -123,7 +123,7 @@ export const CRITTERS: CritterType[] = [
     "id": "black_swallowtail",
     "fieldName": "Black swallowtail",
     "latinName": "Papilio polyxenes",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Black%20swallowtail%20Papilio%20polyxenes",
     "tags": [
       "butterfly",
@@ -134,7 +134,7 @@ export const CRITTERS: CritterType[] = [
     "id": "pipevine_swallowtail",
     "fieldName": "Pipevine swallowtail",
     "latinName": "Battus philenor",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Pipevine%20swallowtail%20Battus%20philenor",
     "tags": [
       "butterfly",
@@ -145,7 +145,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_swallowtail",
     "fieldName": "Giant swallowtail",
     "latinName": "Papilio cresphontes",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20swallowtail%20Papilio%20cresphontes",
     "tags": [
       "butterfly",
@@ -156,7 +156,7 @@ export const CRITTERS: CritterType[] = [
     "id": "spicebush_swallowtail",
     "fieldName": "Spicebush swallowtail",
     "latinName": "Papilio troilus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Spicebush%20swallowtail%20Papilio%20troilus",
     "tags": [
       "butterfly",
@@ -167,7 +167,7 @@ export const CRITTERS: CritterType[] = [
     "id": "zebra_swallowtail",
     "fieldName": "Zebra swallowtail",
     "latinName": "Eurytides marcellus",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Zebra%20swallowtail%20Eurytides%20marcellus",
     "tags": [
       "butterfly",
@@ -178,7 +178,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cabbage_white",
     "fieldName": "Cabbage white",
     "latinName": "Pieris rapae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cabbage%20white%20Pieris%20rapae",
     "tags": [
       "butterfly"
@@ -188,7 +188,7 @@ export const CRITTERS: CritterType[] = [
     "id": "clouded_sulphur",
     "fieldName": "Clouded sulphur",
     "latinName": "Colias philodice",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Clouded%20sulphur%20Colias%20philodice",
     "tags": [
       "butterfly"
@@ -198,7 +198,7 @@ export const CRITTERS: CritterType[] = [
     "id": "orange_sulphur",
     "fieldName": "Orange sulphur",
     "latinName": "Colias eurytheme",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Orange%20sulphur%20Colias%20eurytheme",
     "tags": [
       "butterfly"
@@ -208,7 +208,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cloudless_sulphur",
     "fieldName": "Cloudless sulphur",
     "latinName": "Phoebis sennae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cloudless%20sulphur%20Phoebis%20sennae",
     "tags": [
       "butterfly"
@@ -218,7 +218,7 @@ export const CRITTERS: CritterType[] = [
     "id": "great_spangled_fritillary",
     "fieldName": "Great spangled fritillary",
     "latinName": "Speyeria cybele",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Great%20spangled%20fritillary%20Speyeria%20cybele",
     "tags": [
       "butterfly"
@@ -228,7 +228,7 @@ export const CRITTERS: CritterType[] = [
     "id": "monarch_caterpillar",
     "fieldName": "Monarch caterpillar",
     "latinName": "Danaus plexippus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Monarch%20caterpillar%20Danaus%20plexippus",
     "tags": [
       "caterpillar",
@@ -239,7 +239,7 @@ export const CRITTERS: CritterType[] = [
     "id": "luna_moth",
     "fieldName": "Luna moth",
     "latinName": "Actias luna",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Luna%20moth%20Actias%20luna",
     "tags": [
       "moth"
@@ -249,7 +249,7 @@ export const CRITTERS: CritterType[] = [
     "id": "polyphemus_moth",
     "fieldName": "Polyphemus moth",
     "latinName": "Antheraea polyphemus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Polyphemus%20moth%20Antheraea%20polyphemus",
     "tags": [
       "moth"
@@ -259,7 +259,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cecropia_moth",
     "fieldName": "Cecropia moth",
     "latinName": "Hyalophora cecropia",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cecropia%20moth%20Hyalophora%20cecropia",
     "tags": [
       "moth"
@@ -269,7 +269,7 @@ export const CRITTERS: CritterType[] = [
     "id": "atlas_moth",
     "fieldName": "Atlas moth",
     "latinName": "Attacus atlas",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Atlas%20moth%20Attacus%20atlas",
     "tags": [
       "moth"
@@ -279,7 +279,7 @@ export const CRITTERS: CritterType[] = [
     "id": "io_moth",
     "fieldName": "Io moth",
     "latinName": "Automeris io",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Io%20moth%20Automeris%20io",
     "tags": [
       "moth"
@@ -289,7 +289,7 @@ export const CRITTERS: CritterType[] = [
     "id": "rosy_maple_moth",
     "fieldName": "Rosy maple moth",
     "latinName": "Dryocampa rubicunda",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Rosy%20maple%20moth%20Dryocampa%20rubicunda",
     "tags": [
       "moth"
@@ -299,7 +299,7 @@ export const CRITTERS: CritterType[] = [
     "id": "hummingbird_hawk_moth",
     "fieldName": "Hummingbird hawk-moth",
     "latinName": "Macroglossum stellatarum",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Hummingbird%20hawk-moth%20Macroglossum%20stellatarum",
     "tags": [
       "moth"
@@ -309,7 +309,7 @@ export const CRITTERS: CritterType[] = [
     "id": "death_s_head_hawkmoth",
     "fieldName": "Death's-head hawkmoth",
     "latinName": "Acherontia atropos",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Death%27s-head%20hawkmoth%20Acherontia%20atropos",
     "tags": [
       "moth"
@@ -319,7 +319,7 @@ export const CRITTERS: CritterType[] = [
     "id": "five_spotted_hawkmoth",
     "fieldName": "Five-spotted hawkmoth",
     "latinName": "Manduca quinquemaculata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Five-spotted%20hawkmoth%20Manduca%20quinquemaculata",
     "tags": [
       "moth",
@@ -330,7 +330,7 @@ export const CRITTERS: CritterType[] = [
     "id": "tobacco_hornworm_moth",
     "fieldName": "Tobacco hornworm moth",
     "latinName": "Manduca sexta",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Tobacco%20hornworm%20moth%20Manduca%20sexta",
     "tags": [
       "moth",
@@ -341,7 +341,7 @@ export const CRITTERS: CritterType[] = [
     "id": "white_lined_sphinx",
     "fieldName": "White-lined sphinx",
     "latinName": "Hyles lineata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=White-lined%20sphinx%20Hyles%20lineata",
     "tags": [
       "moth"
@@ -351,7 +351,7 @@ export const CRITTERS: CritterType[] = [
     "id": "garden_tiger_moth",
     "fieldName": "Garden tiger moth",
     "latinName": "Arctia caja",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Garden%20tiger%20moth%20Arctia%20caja",
     "tags": [
       "moth"
@@ -361,7 +361,7 @@ export const CRITTERS: CritterType[] = [
     "id": "isabella_tiger_moth",
     "fieldName": "Isabella tiger moth",
     "latinName": "Pyrrharctia isabella",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Isabella%20tiger%20moth%20Pyrrharctia%20isabella",
     "tags": [
       "moth",
@@ -372,7 +372,7 @@ export const CRITTERS: CritterType[] = [
     "id": "fall_webworm_moth",
     "fieldName": "Fall webworm moth",
     "latinName": "Hyphantria cunea",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Fall%20webworm%20moth%20Hyphantria%20cunea",
     "tags": [
       "moth",
@@ -383,7 +383,7 @@ export const CRITTERS: CritterType[] = [
     "id": "gypsy_moth",
     "fieldName": "Gypsy moth",
     "latinName": "Lymantria dispar",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Gypsy%20moth%20Lymantria%20dispar",
     "tags": [
       "moth",
@@ -394,7 +394,7 @@ export const CRITTERS: CritterType[] = [
     "id": "codling_moth",
     "fieldName": "Codling moth",
     "latinName": "Cydia pomonella",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Codling%20moth%20Cydia%20pomonella",
     "tags": [
       "moth"
@@ -404,7 +404,7 @@ export const CRITTERS: CritterType[] = [
     "id": "silkworm_moth",
     "fieldName": "Silkworm moth",
     "latinName": "Bombyx mori",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Silkworm%20moth%20Bombyx%20mori",
     "tags": [
       "moth",
@@ -415,7 +415,7 @@ export const CRITTERS: CritterType[] = [
     "id": "plume_moth",
     "fieldName": "Plume moth",
     "latinName": "Pterophorus pentadactyla",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Plume%20moth%20Pterophorus%20pentadactyla",
     "tags": [
       "moth"
@@ -425,7 +425,7 @@ export const CRITTERS: CritterType[] = [
     "id": "hummingbird_moth",
     "fieldName": "Hummingbird moth",
     "latinName": "Hemaris thysbe",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Hummingbird%20moth%20Hemaris%20thysbe",
     "tags": [
       "moth"
@@ -433,10 +433,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_clothes_moth",
-    "fieldName": "Common clothes moth",
+    "fieldName": "common clothes moth",
     "latinName": "Tineola bisselliella",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20clothes%20moth%20Tineola%20bisselliella",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20clothes%20moth%20Tineola%20bisselliella",
     "tags": [
       "moth"
     ]
@@ -445,7 +445,7 @@ export const CRITTERS: CritterType[] = [
     "id": "indianmeal_moth",
     "fieldName": "Indianmeal moth",
     "latinName": "Plodia interpunctella",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Indianmeal%20moth%20Plodia%20interpunctella",
     "tags": [
       "moth"
@@ -455,7 +455,7 @@ export const CRITTERS: CritterType[] = [
     "id": "lacewing_moth",
     "fieldName": "Lacewing moth",
     "latinName": "Ctenucha virginica",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Lacewing%20moth%20Ctenucha%20virginica",
     "tags": [
       "moth"
@@ -463,10 +463,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_green_lacewing",
-    "fieldName": "Common green lacewing",
+    "fieldName": "common green lacewing",
     "latinName": "Chrysoperla carnea",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20green%20lacewing%20Chrysoperla%20carnea",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20green%20lacewing%20Chrysoperla%20carnea",
     "tags": [
       "lacewing"
     ]
@@ -475,7 +475,7 @@ export const CRITTERS: CritterType[] = [
     "id": "brown_lacewing",
     "fieldName": "Brown lacewing",
     "latinName": "Hemerobius humulinus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Brown%20lacewing%20Hemerobius%20humulinus",
     "tags": [
       "lacewing"
@@ -485,7 +485,7 @@ export const CRITTERS: CritterType[] = [
     "id": "antlion",
     "fieldName": "Antlion",
     "latinName": "Myrmeleon formicarius",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Antlion%20Myrmeleon%20formicarius",
     "tags": [
       "antlion",
@@ -496,7 +496,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_antlion",
     "fieldName": "Giant antlion",
     "latinName": "Palpares libelluloides",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20antlion%20Palpares%20libelluloides",
     "tags": [
       "antlion"
@@ -506,7 +506,7 @@ export const CRITTERS: CritterType[] = [
     "id": "green_darner",
     "fieldName": "Green darner",
     "latinName": "Anax junius",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Green%20darner%20Anax%20junius",
     "tags": [
       "dragonfly"
@@ -514,10 +514,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_whitetail",
-    "fieldName": "Common whitetail",
+    "fieldName": "common whitetail",
     "latinName": "Plathemis lydia",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20whitetail%20Plathemis%20lydia",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20whitetail%20Plathemis%20lydia",
     "tags": [
       "dragonfly"
     ]
@@ -526,7 +526,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blue_dasher",
     "fieldName": "Blue dasher",
     "latinName": "Pachydiplax longipennis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blue%20dasher%20Pachydiplax%20longipennis",
     "tags": [
       "dragonfly"
@@ -536,7 +536,7 @@ export const CRITTERS: CritterType[] = [
     "id": "halloween_pennant",
     "fieldName": "Halloween pennant",
     "latinName": "Celithemis eponina",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Halloween%20pennant%20Celithemis%20eponina",
     "tags": [
       "dragonfly"
@@ -546,7 +546,7 @@ export const CRITTERS: CritterType[] = [
     "id": "eastern_pondhawk",
     "fieldName": "Eastern pondhawk",
     "latinName": "Erythemis simplicicollis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Eastern%20pondhawk%20Erythemis%20simplicicollis",
     "tags": [
       "dragonfly"
@@ -554,10 +554,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_green_eyed_skimmer",
-    "fieldName": "Common green-eyed skimmer",
+    "fieldName": "common green-eyed skimmer",
     "latinName": "Erythemis simplicicollis",
-    "rarity": "Uncommon",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20green-eyed%20skimmer%20Erythemis%20simplicicollis",
+    "rarity": "uncommon",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20green-eyed%20skimmer%20Erythemis%20simplicicollis",
     "tags": [
       "dragonfly"
     ]
@@ -566,7 +566,7 @@ export const CRITTERS: CritterType[] = [
     "id": "black_saddlebags",
     "fieldName": "Black saddlebags",
     "latinName": "Tramea lacerata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Black%20saddlebags%20Tramea%20lacerata",
     "tags": [
       "dragonfly"
@@ -576,7 +576,7 @@ export const CRITTERS: CritterType[] = [
     "id": "wandering_glider",
     "fieldName": "Wandering glider",
     "latinName": "Pantala flavescens",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Wandering%20glider%20Pantala%20flavescens",
     "tags": [
       "dragonfly"
@@ -586,7 +586,7 @@ export const CRITTERS: CritterType[] = [
     "id": "flame_skimmer",
     "fieldName": "Flame skimmer",
     "latinName": "Libellula saturata",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Flame%20skimmer%20Libellula%20saturata",
     "tags": [
       "dragonfly"
@@ -596,7 +596,7 @@ export const CRITTERS: CritterType[] = [
     "id": "twelve_spotted_skimmer",
     "fieldName": "Twelve-spotted skimmer",
     "latinName": "Libellula pulchella",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Twelve-spotted%20skimmer%20Libellula%20pulchella",
     "tags": [
       "dragonfly"
@@ -606,7 +606,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blue_eyed_darner",
     "fieldName": "Blue-eyed darner",
     "latinName": "Rhionaeschna multicolor",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blue-eyed%20darner%20Rhionaeschna%20multicolor",
     "tags": [
       "dragonfly"
@@ -614,10 +614,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_blue_damselfly",
-    "fieldName": "Common blue damselfly",
+    "fieldName": "common blue damselfly",
     "latinName": "Enallagma cyathigerum",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20blue%20damselfly%20Enallagma%20cyathigerum",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20blue%20damselfly%20Enallagma%20cyathigerum",
     "tags": [
       "damselfly"
     ]
@@ -626,7 +626,7 @@ export const CRITTERS: CritterType[] = [
     "id": "ebony_jewelwing",
     "fieldName": "Ebony jewelwing",
     "latinName": "Calopteryx maculata",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ebony%20jewelwing%20Calopteryx%20maculata",
     "tags": [
       "damselfly"
@@ -636,7 +636,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blue_fronted_dancer",
     "fieldName": "Blue-fronted dancer",
     "latinName": "Argia apicalis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blue-fronted%20dancer%20Argia%20apicalis",
     "tags": [
       "damselfly"
@@ -646,7 +646,7 @@ export const CRITTERS: CritterType[] = [
     "id": "large_red_damselfly",
     "fieldName": "Large red damselfly",
     "latinName": "Pyrrhosoma nymphula",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Large%20red%20damselfly%20Pyrrhosoma%20nymphula",
     "tags": [
       "damselfly"
@@ -654,10 +654,10 @@ export const CRITTERS: CritterType[] = [
   },
   {
     "id": "common_coenagrionid",
-    "fieldName": "Common coenagrionid",
+    "fieldName": "common coenagrionid",
     "latinName": "Ischnura elegans",
-    "rarity": "Common",
-    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Common%20coenagrionid%20Ischnura%20elegans",
+    "rarity": "common",
+    "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=common%20coenagrionid%20Ischnura%20elegans",
     "tags": [
       "damselfly"
     ]
@@ -666,7 +666,7 @@ export const CRITTERS: CritterType[] = [
     "id": "praying_mantis",
     "fieldName": "Praying mantis",
     "latinName": "Mantis religiosa",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Praying%20mantis%20Mantis%20religiosa",
     "tags": [
       "mantis"
@@ -676,7 +676,7 @@ export const CRITTERS: CritterType[] = [
     "id": "chinese_mantis",
     "fieldName": "Chinese mantis",
     "latinName": "Tenodera sinensis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Chinese%20mantis%20Tenodera%20sinensis",
     "tags": [
       "mantis"
@@ -686,7 +686,7 @@ export const CRITTERS: CritterType[] = [
     "id": "carolina_mantis",
     "fieldName": "Carolina mantis",
     "latinName": "Stagmomantis carolina",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Carolina%20mantis%20Stagmomantis%20carolina",
     "tags": [
       "mantis"
@@ -696,7 +696,7 @@ export const CRITTERS: CritterType[] = [
     "id": "orchid_mantis",
     "fieldName": "Orchid mantis",
     "latinName": "Hymenopus coronatus",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Orchid%20mantis%20Hymenopus%20coronatus",
     "tags": [
       "mantis"
@@ -706,7 +706,7 @@ export const CRITTERS: CritterType[] = [
     "id": "ghost_mantis",
     "fieldName": "Ghost mantis",
     "latinName": "Phyllocrania paradoxa",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ghost%20mantis%20Phyllocrania%20paradoxa",
     "tags": [
       "mantis"
@@ -716,7 +716,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_asian_mantis",
     "fieldName": "Giant Asian mantis",
     "latinName": "Hierodula membranacea",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20Asian%20mantis%20Hierodula%20membranacea",
     "tags": [
       "mantis"
@@ -726,7 +726,7 @@ export const CRITTERS: CritterType[] = [
     "id": "spiny_flower_mantis",
     "fieldName": "Spiny flower mantis",
     "latinName": "Pseudocreobotra wahlbergii",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Spiny%20flower%20mantis%20Pseudocreobotra%20wahlbergii",
     "tags": [
       "mantis"
@@ -736,7 +736,7 @@ export const CRITTERS: CritterType[] = [
     "id": "african_twig_mantis",
     "fieldName": "African twig mantis",
     "latinName": "Popa spurca",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=African%20twig%20mantis%20Popa%20spurca",
     "tags": [
       "mantis"
@@ -746,7 +746,7 @@ export const CRITTERS: CritterType[] = [
     "id": "european_mantis",
     "fieldName": "European mantis",
     "latinName": "Iris oratoria",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=European%20mantis%20Iris%20oratoria",
     "tags": [
       "mantis"
@@ -756,7 +756,7 @@ export const CRITTERS: CritterType[] = [
     "id": "narrow_winged_mantis",
     "fieldName": "Narrow-winged mantis",
     "latinName": "Tenodera augustipennis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Narrow-winged%20mantis%20Tenodera%20augustipennis",
     "tags": [
       "mantis"
@@ -766,7 +766,7 @@ export const CRITTERS: CritterType[] = [
     "id": "western_honey_bee",
     "fieldName": "Western honey bee",
     "latinName": "Apis mellifera",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Western%20honey%20bee%20Apis%20mellifera",
     "tags": [
       "bee"
@@ -776,7 +776,7 @@ export const CRITTERS: CritterType[] = [
     "id": "eastern_bumblebee",
     "fieldName": "Eastern bumblebee",
     "latinName": "Bombus impatiens",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Eastern%20bumblebee%20Bombus%20impatiens",
     "tags": [
       "bee"
@@ -786,7 +786,7 @@ export const CRITTERS: CritterType[] = [
     "id": "european_bumblebee",
     "fieldName": "European bumblebee",
     "latinName": "Bombus terrestris",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=European%20bumblebee%20Bombus%20terrestris",
     "tags": [
       "bee"
@@ -796,7 +796,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blue_orchard_bee",
     "fieldName": "Blue orchard bee",
     "latinName": "Osmia lignaria",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blue%20orchard%20bee%20Osmia%20lignaria",
     "tags": [
       "bee"
@@ -806,7 +806,7 @@ export const CRITTERS: CritterType[] = [
     "id": "leafcutter_bee",
     "fieldName": "Leafcutter bee",
     "latinName": "Megachile rotundata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Leafcutter%20bee%20Megachile%20rotundata",
     "tags": [
       "bee"
@@ -816,7 +816,7 @@ export const CRITTERS: CritterType[] = [
     "id": "mason_bee",
     "fieldName": "Mason bee",
     "latinName": "Osmia bicornis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mason%20bee%20Osmia%20bicornis",
     "tags": [
       "bee"
@@ -826,7 +826,7 @@ export const CRITTERS: CritterType[] = [
     "id": "sweat_bee",
     "fieldName": "Sweat bee",
     "latinName": "Agapostemon virescens",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Sweat%20bee%20Agapostemon%20virescens",
     "tags": [
       "bee"
@@ -836,7 +836,7 @@ export const CRITTERS: CritterType[] = [
     "id": "eastern_carpenter_bee",
     "fieldName": "Eastern carpenter bee",
     "latinName": "Xylocopa virginica",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Eastern%20carpenter%20bee%20Xylocopa%20virginica",
     "tags": [
       "bee"
@@ -846,7 +846,7 @@ export const CRITTERS: CritterType[] = [
     "id": "hairy_footed_flower_bee",
     "fieldName": "Hairy-footed flower bee",
     "latinName": "Anthophora plumipes",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Hairy-footed%20flower%20bee%20Anthophora%20plumipes",
     "tags": [
       "bee"
@@ -856,7 +856,7 @@ export const CRITTERS: CritterType[] = [
     "id": "long_horned_bee",
     "fieldName": "Long-horned bee",
     "latinName": "Melissodes bimaculata",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Long-horned%20bee%20Melissodes%20bimaculata",
     "tags": [
       "bee"
@@ -866,7 +866,7 @@ export const CRITTERS: CritterType[] = [
     "id": "mining_bee",
     "fieldName": "Mining bee",
     "latinName": "Andrena flavipes",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mining%20bee%20Andrena%20flavipes",
     "tags": [
       "bee"
@@ -876,7 +876,7 @@ export const CRITTERS: CritterType[] = [
     "id": "squash_bee",
     "fieldName": "Squash bee",
     "latinName": "Eucera pruinosa",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Squash%20bee%20Eucera%20pruinosa",
     "tags": [
       "bee"
@@ -886,7 +886,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cuckoo_bee",
     "fieldName": "Cuckoo bee",
     "latinName": "Nomada ruficornis",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cuckoo%20bee%20Nomada%20ruficornis",
     "tags": [
       "bee",
@@ -897,7 +897,7 @@ export const CRITTERS: CritterType[] = [
     "id": "small_carpenter_bee",
     "fieldName": "Small carpenter bee",
     "latinName": "Ceratina calcarata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Small%20carpenter%20bee%20Ceratina%20calcarata",
     "tags": [
       "bee"
@@ -907,7 +907,7 @@ export const CRITTERS: CritterType[] = [
     "id": "yellowjacket",
     "fieldName": "Yellowjacket",
     "latinName": "Vespula maculifrons",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Yellowjacket%20Vespula%20maculifrons",
     "tags": [
       "wasp"
@@ -917,7 +917,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bald_faced_hornet",
     "fieldName": "Bald-faced hornet",
     "latinName": "Dolichovespula maculata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bald-faced%20hornet%20Dolichovespula%20maculata",
     "tags": [
       "wasp",
@@ -928,7 +928,7 @@ export const CRITTERS: CritterType[] = [
     "id": "european_paper_wasp",
     "fieldName": "European paper wasp",
     "latinName": "Polistes dominula",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=European%20paper%20wasp%20Polistes%20dominula",
     "tags": [
       "wasp"
@@ -938,7 +938,7 @@ export const CRITTERS: CritterType[] = [
     "id": "northern_paper_wasp",
     "fieldName": "Northern paper wasp",
     "latinName": "Polistes fuscatus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Northern%20paper%20wasp%20Polistes%20fuscatus",
     "tags": [
       "wasp"
@@ -948,7 +948,7 @@ export const CRITTERS: CritterType[] = [
     "id": "great_golden_digger_wasp",
     "fieldName": "Great golden digger wasp",
     "latinName": "Sphex ichneumoneus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Great%20golden%20digger%20wasp%20Sphex%20ichneumoneus",
     "tags": [
       "wasp"
@@ -958,7 +958,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cicada_killer",
     "fieldName": "Cicada killer",
     "latinName": "Sphecius speciosus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cicada%20killer%20Sphecius%20speciosus",
     "tags": [
       "wasp"
@@ -968,7 +968,7 @@ export const CRITTERS: CritterType[] = [
     "id": "mud_dauber",
     "fieldName": "Mud dauber",
     "latinName": "Sceliphron caementarium",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mud%20dauber%20Sceliphron%20caementarium",
     "tags": [
       "wasp"
@@ -978,7 +978,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blue_mud_dauber",
     "fieldName": "Blue mud dauber",
     "latinName": "Chalybion californicum",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blue%20mud%20dauber%20Chalybion%20californicum",
     "tags": [
       "wasp"
@@ -988,7 +988,7 @@ export const CRITTERS: CritterType[] = [
     "id": "braconid_wasp",
     "fieldName": "Braconid wasp",
     "latinName": "Cotesia glomerata",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Braconid%20wasp%20Cotesia%20glomerata",
     "tags": [
       "wasp",
@@ -999,7 +999,7 @@ export const CRITTERS: CritterType[] = [
     "id": "ichneumon_wasp",
     "fieldName": "Ichneumon wasp",
     "latinName": "Ichneumon xanthorius",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ichneumon%20wasp%20Ichneumon%20xanthorius",
     "tags": [
       "wasp",
@@ -1010,7 +1010,7 @@ export const CRITTERS: CritterType[] = [
     "id": "ant",
     "fieldName": "Ant",
     "latinName": "Formica rufa",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Ant%20Formica%20rufa",
     "tags": [
       "ant"
@@ -1020,7 +1020,7 @@ export const CRITTERS: CritterType[] = [
     "id": "carpenter_ant",
     "fieldName": "Carpenter ant",
     "latinName": "Camponotus pennsylvanicus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Carpenter%20ant%20Camponotus%20pennsylvanicus",
     "tags": [
       "ant"
@@ -1030,7 +1030,7 @@ export const CRITTERS: CritterType[] = [
     "id": "fire_ant",
     "fieldName": "Fire ant",
     "latinName": "Solenopsis invicta",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Fire%20ant%20Solenopsis%20invicta",
     "tags": [
       "ant"
@@ -1040,7 +1040,7 @@ export const CRITTERS: CritterType[] = [
     "id": "leafcutter_ant",
     "fieldName": "Leafcutter ant",
     "latinName": "Atta cephalotes",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Leafcutter%20ant%20Atta%20cephalotes",
     "tags": [
       "ant"
@@ -1050,7 +1050,7 @@ export const CRITTERS: CritterType[] = [
     "id": "army_ant",
     "fieldName": "Army ant",
     "latinName": "Eciton burchellii",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Army%20ant%20Eciton%20burchellii",
     "tags": [
       "ant"
@@ -1060,7 +1060,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bullet_ant",
     "fieldName": "Bullet ant",
     "latinName": "Paraponera clavata",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bullet%20ant%20Paraponera%20clavata",
     "tags": [
       "ant"
@@ -1070,7 +1070,7 @@ export const CRITTERS: CritterType[] = [
     "id": "weaver_ant",
     "fieldName": "Weaver ant",
     "latinName": "Oecophylla smaragdina",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Weaver%20ant%20Oecophylla%20smaragdina",
     "tags": [
       "ant"
@@ -1080,7 +1080,7 @@ export const CRITTERS: CritterType[] = [
     "id": "acrobat_ant",
     "fieldName": "Acrobat ant",
     "latinName": "Crematogaster lineolata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Acrobat%20ant%20Crematogaster%20lineolata",
     "tags": [
       "ant"
@@ -1090,7 +1090,7 @@ export const CRITTERS: CritterType[] = [
     "id": "harvester_ant",
     "fieldName": "Harvester ant",
     "latinName": "Pogonomyrmex barbatus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Harvester%20ant%20Pogonomyrmex%20barbatus",
     "tags": [
       "ant"
@@ -1100,7 +1100,7 @@ export const CRITTERS: CritterType[] = [
     "id": "pavement_ant",
     "fieldName": "Pavement ant",
     "latinName": "Tetramorium immigrans",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Pavement%20ant%20Tetramorium%20immigrans",
     "tags": [
       "ant"
@@ -1110,7 +1110,7 @@ export const CRITTERS: CritterType[] = [
     "id": "trap_jaw_ant",
     "fieldName": "Trap-jaw ant",
     "latinName": "Odontomachus haematodus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Trap-jaw%20ant%20Odontomachus%20haematodus",
     "tags": [
       "ant"
@@ -1120,7 +1120,7 @@ export const CRITTERS: CritterType[] = [
     "id": "black_garden_ant",
     "fieldName": "Black garden ant",
     "latinName": "Lasius niger",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Black%20garden%20ant%20Lasius%20niger",
     "tags": [
       "ant"
@@ -1130,7 +1130,7 @@ export const CRITTERS: CritterType[] = [
     "id": "velvet_ant",
     "fieldName": "Velvet ant",
     "latinName": "Dasymutilla occidentalis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Velvet%20ant%20Dasymutilla%20occidentalis",
     "tags": [
       "ant",
@@ -1141,7 +1141,7 @@ export const CRITTERS: CritterType[] = [
     "id": "rhinoceros_beetle",
     "fieldName": "Rhinoceros beetle",
     "latinName": "Dynastes hercules",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Rhinoceros%20beetle%20Dynastes%20hercules",
     "tags": [
       "beetle"
@@ -1151,7 +1151,7 @@ export const CRITTERS: CritterType[] = [
     "id": "hercules_beetle",
     "fieldName": "Hercules beetle",
     "latinName": "Dynastes hercules",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Hercules%20beetle%20Dynastes%20hercules",
     "tags": [
       "beetle"
@@ -1161,7 +1161,7 @@ export const CRITTERS: CritterType[] = [
     "id": "stag_beetle",
     "fieldName": "Stag beetle",
     "latinName": "Lucanus cervus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Stag%20beetle%20Lucanus%20cervus",
     "tags": [
       "beetle"
@@ -1171,7 +1171,7 @@ export const CRITTERS: CritterType[] = [
     "id": "goliath_beetle",
     "fieldName": "Goliath beetle",
     "latinName": "Goliathus goliatus",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Goliath%20beetle%20Goliathus%20goliatus",
     "tags": [
       "beetle"
@@ -1181,7 +1181,7 @@ export const CRITTERS: CritterType[] = [
     "id": "japanese_beetle",
     "fieldName": "Japanese beetle",
     "latinName": "Popillia japonica",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Japanese%20beetle%20Popillia%20japonica",
     "tags": [
       "beetle"
@@ -1191,7 +1191,7 @@ export const CRITTERS: CritterType[] = [
     "id": "seven_spotted_lady_beetle",
     "fieldName": "Seven-spotted lady beetle",
     "latinName": "Coccinella septempunctata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Seven-spotted%20lady%20beetle%20Coccinella%20septempunctata",
     "tags": [
       "beetle",
@@ -1202,7 +1202,7 @@ export const CRITTERS: CritterType[] = [
     "id": "convergent_lady_beetle",
     "fieldName": "Convergent lady beetle",
     "latinName": "Hippodamia convergens",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Convergent%20lady%20beetle%20Hippodamia%20convergens",
     "tags": [
       "beetle",
@@ -1213,7 +1213,7 @@ export const CRITTERS: CritterType[] = [
     "id": "asian_lady_beetle",
     "fieldName": "Asian lady beetle",
     "latinName": "Harmonia axyridis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Asian%20lady%20beetle%20Harmonia%20axyridis",
     "tags": [
       "beetle",
@@ -1224,7 +1224,7 @@ export const CRITTERS: CritterType[] = [
     "id": "colorado_potato_beetle",
     "fieldName": "Colorado potato beetle",
     "latinName": "Leptinotarsa decemlineata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Colorado%20potato%20beetle%20Leptinotarsa%20decemlineata",
     "tags": [
       "beetle"
@@ -1234,7 +1234,7 @@ export const CRITTERS: CritterType[] = [
     "id": "firefly",
     "fieldName": "Firefly",
     "latinName": "Photinus pyralis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Firefly%20Photinus%20pyralis",
     "tags": [
       "beetle",
@@ -1245,7 +1245,7 @@ export const CRITTERS: CritterType[] = [
     "id": "click_beetle",
     "fieldName": "Click beetle",
     "latinName": "Alaus oculatus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Click%20beetle%20Alaus%20oculatus",
     "tags": [
       "beetle"
@@ -1255,7 +1255,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bess_beetle",
     "fieldName": "Bess beetle",
     "latinName": "Odontotaenius disjunctus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bess%20beetle%20Odontotaenius%20disjunctus",
     "tags": [
       "beetle"
@@ -1265,7 +1265,7 @@ export const CRITTERS: CritterType[] = [
     "id": "deathwatch_beetle",
     "fieldName": "Deathwatch beetle",
     "latinName": "Xestobium rufovillosum",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Deathwatch%20beetle%20Xestobium%20rufovillosum",
     "tags": [
       "beetle"
@@ -1275,7 +1275,7 @@ export const CRITTERS: CritterType[] = [
     "id": "tiger_beetle",
     "fieldName": "Tiger beetle",
     "latinName": "Cicindela campestris",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Tiger%20beetle%20Cicindela%20campestris",
     "tags": [
       "beetle"
@@ -1285,7 +1285,7 @@ export const CRITTERS: CritterType[] = [
     "id": "whirligig_beetle",
     "fieldName": "Whirligig beetle",
     "latinName": "Dineutus carolinus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Whirligig%20beetle%20Dineutus%20carolinus",
     "tags": [
       "beetle",
@@ -1296,7 +1296,7 @@ export const CRITTERS: CritterType[] = [
     "id": "diving_beetle",
     "fieldName": "Diving beetle",
     "latinName": "Dytiscus marginalis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Diving%20beetle%20Dytiscus%20marginalis",
     "tags": [
       "beetle",
@@ -1307,7 +1307,7 @@ export const CRITTERS: CritterType[] = [
     "id": "scarab_beetle",
     "fieldName": "Scarab beetle",
     "latinName": "Scarabaeus sacer",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Scarab%20beetle%20Scarabaeus%20sacer",
     "tags": [
       "beetle"
@@ -1317,7 +1317,7 @@ export const CRITTERS: CritterType[] = [
     "id": "longhorn_beetle",
     "fieldName": "Longhorn beetle",
     "latinName": "Cerambyx cerdo",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Longhorn%20beetle%20Cerambyx%20cerdo",
     "tags": [
       "beetle"
@@ -1327,7 +1327,7 @@ export const CRITTERS: CritterType[] = [
     "id": "emerald_ash_borer",
     "fieldName": "Emerald ash borer",
     "latinName": "Agrilus planipennis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Emerald%20ash%20borer%20Agrilus%20planipennis",
     "tags": [
       "beetle"
@@ -1337,7 +1337,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bark_beetle",
     "fieldName": "Bark beetle",
     "latinName": "Dendroctonus ponderosae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bark%20beetle%20Dendroctonus%20ponderosae",
     "tags": [
       "beetle"
@@ -1347,7 +1347,7 @@ export const CRITTERS: CritterType[] = [
     "id": "weevil",
     "fieldName": "Weevil",
     "latinName": "Curculio nucum",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Weevil%20Curculio%20nucum",
     "tags": [
       "beetle",
@@ -1358,7 +1358,7 @@ export const CRITTERS: CritterType[] = [
     "id": "acorn_weevil",
     "fieldName": "Acorn weevil",
     "latinName": "Curculio glandium",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Acorn%20weevil%20Curculio%20glandium",
     "tags": [
       "beetle",
@@ -1369,7 +1369,7 @@ export const CRITTERS: CritterType[] = [
     "id": "rice_weevil",
     "fieldName": "Rice weevil",
     "latinName": "Sitophilus oryzae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Rice%20weevil%20Sitophilus%20oryzae",
     "tags": [
       "beetle",
@@ -1380,7 +1380,7 @@ export const CRITTERS: CritterType[] = [
     "id": "boll_weevil",
     "fieldName": "Boll weevil",
     "latinName": "Anthonomus grandis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Boll%20weevil%20Anthonomus%20grandis",
     "tags": [
       "beetle",
@@ -1391,7 +1391,7 @@ export const CRITTERS: CritterType[] = [
     "id": "blister_beetle",
     "fieldName": "Blister beetle",
     "latinName": "Epicauta vittata",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Blister%20beetle%20Epicauta%20vittata",
     "tags": [
       "beetle"
@@ -1401,7 +1401,7 @@ export const CRITTERS: CritterType[] = [
     "id": "darkling_beetle",
     "fieldName": "Darkling beetle",
     "latinName": "Eleodes obscura",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Darkling%20beetle%20Eleodes%20obscura",
     "tags": [
       "beetle"
@@ -1411,7 +1411,7 @@ export const CRITTERS: CritterType[] = [
     "id": "dung_beetle",
     "fieldName": "Dung beetle",
     "latinName": "Onthophagus taurus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Dung%20beetle%20Onthophagus%20taurus",
     "tags": [
       "beetle"
@@ -1421,7 +1421,7 @@ export const CRITTERS: CritterType[] = [
     "id": "water_scavenger_beetle",
     "fieldName": "Water scavenger beetle",
     "latinName": "Hydrophilus triangularis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Water%20scavenger%20beetle%20Hydrophilus%20triangularis",
     "tags": [
       "beetle",
@@ -1432,7 +1432,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cicada",
     "fieldName": "Cicada",
     "latinName": "Magicicada septendecim",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cicada%20Magicicada%20septendecim",
     "tags": [
       "cicada"
@@ -1442,7 +1442,7 @@ export const CRITTERS: CritterType[] = [
     "id": "dog_day_cicada",
     "fieldName": "Dog-day cicada",
     "latinName": "Neotibicen canicularis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Dog-day%20cicada%20Neotibicen%20canicularis",
     "tags": [
       "cicada"
@@ -1452,7 +1452,7 @@ export const CRITTERS: CritterType[] = [
     "id": "periodical_cicada",
     "fieldName": "Periodical cicada",
     "latinName": "Magicicada septendecim",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Periodical%20cicada%20Magicicada%20septendecim",
     "tags": [
       "cicada"
@@ -1462,7 +1462,7 @@ export const CRITTERS: CritterType[] = [
     "id": "leafhopper",
     "fieldName": "Leafhopper",
     "latinName": "Graphocephala coccinea",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Leafhopper%20Graphocephala%20coccinea",
     "tags": [
       "leafhopper"
@@ -1472,7 +1472,7 @@ export const CRITTERS: CritterType[] = [
     "id": "spittlebug",
     "fieldName": "Spittlebug",
     "latinName": "Philaenus spumarius",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Spittlebug%20Philaenus%20spumarius",
     "tags": [
       "spittlebug"
@@ -1482,7 +1482,7 @@ export const CRITTERS: CritterType[] = [
     "id": "aphid",
     "fieldName": "Aphid",
     "latinName": "Aphis fabae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Aphid%20Aphis%20fabae",
     "tags": [
       "aphid"
@@ -1492,7 +1492,7 @@ export const CRITTERS: CritterType[] = [
     "id": "oleander_aphid",
     "fieldName": "Oleander aphid",
     "latinName": "Aphis nerii",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Oleander%20aphid%20Aphis%20nerii",
     "tags": [
       "aphid"
@@ -1502,7 +1502,7 @@ export const CRITTERS: CritterType[] = [
     "id": "green_peach_aphid",
     "fieldName": "Green peach aphid",
     "latinName": "Myzus persicae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Green%20peach%20aphid%20Myzus%20persicae",
     "tags": [
       "aphid"
@@ -1512,7 +1512,7 @@ export const CRITTERS: CritterType[] = [
     "id": "whitefly",
     "fieldName": "Whitefly",
     "latinName": "Trialeurodes vaporariorum",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Whitefly%20Trialeurodes%20vaporariorum",
     "tags": [
       "whitefly"
@@ -1522,7 +1522,7 @@ export const CRITTERS: CritterType[] = [
     "id": "cottony_cushion_scale",
     "fieldName": "Cottony cushion scale",
     "latinName": "Icerya purchasi",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Cottony%20cushion%20scale%20Icerya%20purchasi",
     "tags": [
       "scale insect"
@@ -1532,7 +1532,7 @@ export const CRITTERS: CritterType[] = [
     "id": "periodical_cicada_nymph",
     "fieldName": "Periodical cicada nymph",
     "latinName": "Magicicada septendecim",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Periodical%20cicada%20nymph%20Magicicada%20septendecim",
     "tags": [
       "cicada",
@@ -1543,7 +1543,7 @@ export const CRITTERS: CritterType[] = [
     "id": "wheel_bug",
     "fieldName": "Wheel bug",
     "latinName": "Arilus cristatus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Wheel%20bug%20Arilus%20cristatus",
     "tags": [
       "true bug",
@@ -1554,7 +1554,7 @@ export const CRITTERS: CritterType[] = [
     "id": "milkweed_bug",
     "fieldName": "Milkweed bug",
     "latinName": "Oncopeltus fasciatus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Milkweed%20bug%20Oncopeltus%20fasciatus",
     "tags": [
       "true bug"
@@ -1564,7 +1564,7 @@ export const CRITTERS: CritterType[] = [
     "id": "stink_bug",
     "fieldName": "Stink bug",
     "latinName": "Podisus maculiventris",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Stink%20bug%20Podisus%20maculiventris",
     "tags": [
       "true bug",
@@ -1575,7 +1575,7 @@ export const CRITTERS: CritterType[] = [
     "id": "brown_marmorated_stink_bug",
     "fieldName": "Brown marmorated stink bug",
     "latinName": "Halyomorpha halys",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Brown%20marmorated%20stink%20bug%20Halyomorpha%20halys",
     "tags": [
       "true bug"
@@ -1585,7 +1585,7 @@ export const CRITTERS: CritterType[] = [
     "id": "leaf_footed_bug",
     "fieldName": "Leaf-footed bug",
     "latinName": "Leptoglossus phyllopus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Leaf-footed%20bug%20Leptoglossus%20phyllopus",
     "tags": [
       "true bug"
@@ -1595,7 +1595,7 @@ export const CRITTERS: CritterType[] = [
     "id": "assassin_bug",
     "fieldName": "Assassin bug",
     "latinName": "Reduvius personatus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Assassin%20bug%20Reduvius%20personatus",
     "tags": [
       "true bug",
@@ -1606,7 +1606,7 @@ export const CRITTERS: CritterType[] = [
     "id": "water_strider",
     "fieldName": "Water strider",
     "latinName": "Aquarius remigis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Water%20strider%20Aquarius%20remigis",
     "tags": [
       "true bug",
@@ -1617,7 +1617,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_water_bug",
     "fieldName": "Giant water bug",
     "latinName": "Lethocerus americanus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20water%20bug%20Lethocerus%20americanus",
     "tags": [
       "true bug",
@@ -1628,7 +1628,7 @@ export const CRITTERS: CritterType[] = [
     "id": "backswimmer",
     "fieldName": "Backswimmer",
     "latinName": "Notonecta glauca",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Backswimmer%20Notonecta%20glauca",
     "tags": [
       "true bug",
@@ -1639,7 +1639,7 @@ export const CRITTERS: CritterType[] = [
     "id": "water_boatman",
     "fieldName": "Water boatman",
     "latinName": "Corixa punctata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Water%20boatman%20Corixa%20punctata",
     "tags": [
       "true bug",
@@ -1650,7 +1650,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bed_bug",
     "fieldName": "Bed bug",
     "latinName": "Cimex lectularius",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bed%20bug%20Cimex%20lectularius",
     "tags": [
       "true bug"
@@ -1660,7 +1660,7 @@ export const CRITTERS: CritterType[] = [
     "id": "squash_bug",
     "fieldName": "Squash bug",
     "latinName": "Anasa tristis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Squash%20bug%20Anasa%20tristis",
     "tags": [
       "true bug"
@@ -1670,7 +1670,7 @@ export const CRITTERS: CritterType[] = [
     "id": "earwig",
     "fieldName": "Earwig",
     "latinName": "Forficula auricularia",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Earwig%20Forficula%20auricularia",
     "tags": [
       "earwig"
@@ -1680,7 +1680,7 @@ export const CRITTERS: CritterType[] = [
     "id": "european_earwig",
     "fieldName": "European earwig",
     "latinName": "Forficula auricularia",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=European%20earwig%20Forficula%20auricularia",
     "tags": [
       "earwig"
@@ -1690,7 +1690,7 @@ export const CRITTERS: CritterType[] = [
     "id": "house_cricket",
     "fieldName": "House cricket",
     "latinName": "Acheta domesticus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=House%20cricket%20Acheta%20domesticus",
     "tags": [
       "cricket"
@@ -1700,7 +1700,7 @@ export const CRITTERS: CritterType[] = [
     "id": "field_cricket",
     "fieldName": "Field cricket",
     "latinName": "Gryllus pennsylvanicus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Field%20cricket%20Gryllus%20pennsylvanicus",
     "tags": [
       "cricket"
@@ -1710,7 +1710,7 @@ export const CRITTERS: CritterType[] = [
     "id": "jerusalem_cricket",
     "fieldName": "Jerusalem cricket",
     "latinName": "Stenopelmatus fuscus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Jerusalem%20cricket%20Stenopelmatus%20fuscus",
     "tags": [
       "cricket"
@@ -1720,7 +1720,7 @@ export const CRITTERS: CritterType[] = [
     "id": "camel_cricket",
     "fieldName": "Camel cricket",
     "latinName": "Ceuthophilus californianus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Camel%20cricket%20Ceuthophilus%20californianus",
     "tags": [
       "cricket"
@@ -1730,7 +1730,7 @@ export const CRITTERS: CritterType[] = [
     "id": "katydid",
     "fieldName": "Katydid",
     "latinName": "Microcentrum rhombifolium",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Katydid%20Microcentrum%20rhombifolium",
     "tags": [
       "katydid"
@@ -1740,7 +1740,7 @@ export const CRITTERS: CritterType[] = [
     "id": "conehead_katydid",
     "fieldName": "Conehead katydid",
     "latinName": "Neoconocephalus robustus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Conehead%20katydid%20Neoconocephalus%20robustus",
     "tags": [
       "katydid"
@@ -1750,7 +1750,7 @@ export const CRITTERS: CritterType[] = [
     "id": "american_grasshopper",
     "fieldName": "American grasshopper",
     "latinName": "Schistocerca americana",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=American%20grasshopper%20Schistocerca%20americana",
     "tags": [
       "grasshopper"
@@ -1760,7 +1760,7 @@ export const CRITTERS: CritterType[] = [
     "id": "differential_grasshopper",
     "fieldName": "Differential grasshopper",
     "latinName": "Melanoplus differentialis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Differential%20grasshopper%20Melanoplus%20differentialis",
     "tags": [
       "grasshopper"
@@ -1770,7 +1770,7 @@ export const CRITTERS: CritterType[] = [
     "id": "lubber_grasshopper",
     "fieldName": "Lubber grasshopper",
     "latinName": "Romalea microptera",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Lubber%20grasshopper%20Romalea%20microptera",
     "tags": [
       "grasshopper"
@@ -1780,7 +1780,7 @@ export const CRITTERS: CritterType[] = [
     "id": "desert_locust",
     "fieldName": "Desert locust",
     "latinName": "Schistocerca gregaria",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Desert%20locust%20Schistocerca%20gregaria",
     "tags": [
       "grasshopper",
@@ -1791,7 +1791,7 @@ export const CRITTERS: CritterType[] = [
     "id": "migratory_locust",
     "fieldName": "Migratory locust",
     "latinName": "Locusta migratoria",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Migratory%20locust%20Locusta%20migratoria",
     "tags": [
       "grasshopper",
@@ -1802,7 +1802,7 @@ export const CRITTERS: CritterType[] = [
     "id": "walking_stick",
     "fieldName": "Walking stick",
     "latinName": "Diapherodes gigantea",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Walking%20stick%20Diapherodes%20gigantea",
     "tags": [
       "walking stick"
@@ -1812,7 +1812,7 @@ export const CRITTERS: CritterType[] = [
     "id": "indian_stick_insect",
     "fieldName": "Indian stick insect",
     "latinName": "Carausius morosus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Indian%20stick%20insect%20Carausius%20morosus",
     "tags": [
       "walking stick"
@@ -1822,7 +1822,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_prickly_stick_insect",
     "fieldName": "Giant prickly stick insect",
     "latinName": "Extatosoma tiaratum",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20prickly%20stick%20insect%20Extatosoma%20tiaratum",
     "tags": [
       "walking stick"
@@ -1832,7 +1832,7 @@ export const CRITTERS: CritterType[] = [
     "id": "leaf_insect",
     "fieldName": "Leaf insect",
     "latinName": "Phyllium philippinicum",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Leaf%20insect%20Phyllium%20philippinicum",
     "tags": [
       "leaf insect"
@@ -1842,7 +1842,7 @@ export const CRITTERS: CritterType[] = [
     "id": "giant_leaf_insect",
     "fieldName": "Giant leaf insect",
     "latinName": "Phyllium giganteum",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Giant%20leaf%20insect%20Phyllium%20giganteum",
     "tags": [
       "leaf insect"
@@ -1852,7 +1852,7 @@ export const CRITTERS: CritterType[] = [
     "id": "housefly",
     "fieldName": "Housefly",
     "latinName": "Musca domestica",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Housefly%20Musca%20domestica",
     "tags": [
       "fly"
@@ -1862,7 +1862,7 @@ export const CRITTERS: CritterType[] = [
     "id": "bluebottle_fly",
     "fieldName": "Bluebottle fly",
     "latinName": "Calliphora vicina",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Bluebottle%20fly%20Calliphora%20vicina",
     "tags": [
       "fly"
@@ -1872,7 +1872,7 @@ export const CRITTERS: CritterType[] = [
     "id": "green_bottle_fly",
     "fieldName": "Green bottle fly",
     "latinName": "Lucilia sericata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Green%20bottle%20fly%20Lucilia%20sericata",
     "tags": [
       "fly"
@@ -1882,7 +1882,7 @@ export const CRITTERS: CritterType[] = [
     "id": "fruit_fly",
     "fieldName": "Fruit fly",
     "latinName": "Drosophila melanogaster",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Fruit%20fly%20Drosophila%20melanogaster",
     "tags": [
       "fly"
@@ -1892,7 +1892,7 @@ export const CRITTERS: CritterType[] = [
     "id": "hoverfly",
     "fieldName": "Hoverfly",
     "latinName": "Eristalis tenax",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Hoverfly%20Eristalis%20tenax",
     "tags": [
       "fly",
@@ -1903,7 +1903,7 @@ export const CRITTERS: CritterType[] = [
     "id": "robber_fly",
     "fieldName": "Robber fly",
     "latinName": "Asilus crabroniformis",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Robber%20fly%20Asilus%20crabroniformis",
     "tags": [
       "fly",
@@ -1914,7 +1914,7 @@ export const CRITTERS: CritterType[] = [
     "id": "horse_fly",
     "fieldName": "Horse fly",
     "latinName": "Tabanus atratus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Horse%20fly%20Tabanus%20atratus",
     "tags": [
       "fly"
@@ -1924,7 +1924,7 @@ export const CRITTERS: CritterType[] = [
     "id": "deer_fly",
     "fieldName": "Deer fly",
     "latinName": "Chrysops relictus",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Deer%20fly%20Chrysops%20relictus",
     "tags": [
       "fly"
@@ -1934,7 +1934,7 @@ export const CRITTERS: CritterType[] = [
     "id": "crane_fly",
     "fieldName": "Crane fly",
     "latinName": "Tipula paludosa",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Crane%20fly%20Tipula%20paludosa",
     "tags": [
       "fly"
@@ -1944,7 +1944,7 @@ export const CRITTERS: CritterType[] = [
     "id": "mosquito",
     "fieldName": "Mosquito",
     "latinName": "Aedes aegypti",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Mosquito%20Aedes%20aegypti",
     "tags": [
       "mosquito"
@@ -1954,7 +1954,7 @@ export const CRITTERS: CritterType[] = [
     "id": "malaria_mosquito",
     "fieldName": "Malaria mosquito",
     "latinName": "Anopheles gambiae",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Malaria%20mosquito%20Anopheles%20gambiae",
     "tags": [
       "mosquito"
@@ -1964,7 +1964,7 @@ export const CRITTERS: CritterType[] = [
     "id": "yellow_fever_mosquito",
     "fieldName": "Yellow fever mosquito",
     "latinName": "Aedes aegypti",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Yellow%20fever%20mosquito%20Aedes%20aegypti",
     "tags": [
       "mosquito"
@@ -1974,7 +1974,7 @@ export const CRITTERS: CritterType[] = [
     "id": "fungus_gnat",
     "fieldName": "Fungus gnat",
     "latinName": "Bradysia impatiens",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Fungus%20gnat%20Bradysia%20impatiens",
     "tags": [
       "fly"
@@ -1984,7 +1984,7 @@ export const CRITTERS: CritterType[] = [
     "id": "drain_fly",
     "fieldName": "Drain fly",
     "latinName": "Psychoda alternata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Drain%20fly%20Psychoda%20alternata",
     "tags": [
       "fly"
@@ -1994,7 +1994,7 @@ export const CRITTERS: CritterType[] = [
     "id": "flesh_fly",
     "fieldName": "Flesh fly",
     "latinName": "Sarcophaga bullata",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Flesh%20fly%20Sarcophaga%20bullata",
     "tags": [
       "fly"
@@ -2004,7 +2004,7 @@ export const CRITTERS: CritterType[] = [
     "id": "tsetse_fly",
     "fieldName": "Tsetse fly",
     "latinName": "Glossina morsitans",
-    "rarity": "Rare",
+    "rarity": "rare",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Tsetse%20fly%20Glossina%20morsitans",
     "tags": [
       "fly"
@@ -2014,7 +2014,7 @@ export const CRITTERS: CritterType[] = [
     "id": "sand_fly",
     "fieldName": "Sand fly",
     "latinName": "Phlebotomus papatasi",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Sand%20fly%20Phlebotomus%20papatasi",
     "tags": [
       "fly"
@@ -2024,7 +2024,7 @@ export const CRITTERS: CritterType[] = [
     "id": "louse_fly",
     "fieldName": "Louse fly",
     "latinName": "Melophagus ovinus",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Louse%20fly%20Melophagus%20ovinus",
     "tags": [
       "fly"
@@ -2034,7 +2034,7 @@ export const CRITTERS: CritterType[] = [
     "id": "flea",
     "fieldName": "Flea",
     "latinName": "Ctenocephalides felis",
-    "rarity": "Common",
+    "rarity": "common",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Flea%20Ctenocephalides%20felis",
     "tags": [
       "flea"
@@ -2044,7 +2044,7 @@ export const CRITTERS: CritterType[] = [
     "id": "human_flea",
     "fieldName": "Human flea",
     "latinName": "Pulex irritans",
-    "rarity": "Uncommon",
+    "rarity": "uncommon",
     "imageURL": "https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=Human%20flea%20Pulex%20irritans",
     "tags": [
       "flea"

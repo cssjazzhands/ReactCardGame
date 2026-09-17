@@ -39,7 +39,7 @@ const HomePage = (): JSX.Element => {
           { endpoint: "/api/v1/version", status: versionRes.status, ms },
         ]);
         setRawResponses({
-          "/api/v1/missions": JSON.stringify(crittersData, null, 2),
+          "/api/v1/critters": JSON.stringify(crittersData, null, 2),
           "/api/v1/version": JSON.stringify(versionData, null, 2),
         });
       } catch {
@@ -71,8 +71,8 @@ const HomePage = (): JSX.Element => {
       <header className={styles.header}>
         <img src="/images/nasa-logo.svg" alt="NASA logo" className={styles.logo} />
         <div>
-          <h1 className={styles.title}>Mission Tracker</h1>
-          <p className={styles.subtitle}>NASA Active &amp; Upcoming Missions</p>
+          <h1 className={styles.title}>Critter Card Collectathon</h1>
+          <p className={styles.subtitle}>Like bugs? Time to collect them all!</p>
         </div>
         <button className={styles["nav-btn"]} onClick={() => setShowStack(true)}>
           Tech Stack ↗
@@ -115,16 +115,16 @@ const HomePage = (): JSX.Element => {
               <span className={styles["stat-label"]}>Total</span>
             </div>
             <div className={`${styles.stat} ${styles["stat-active"]}`}>
-              <span className={styles["stat-value"]}>{stats.active}</span>
-              <span className={styles["stat-label"]}>Active</span>
+              <span className={styles["stat-value"]}>{stats.common}</span>
+              <span className={styles["stat-label"]}>Common</span>
             </div>
             <div className={`${styles.stat} ${styles["stat-completed"]}`}>
-              <span className={styles["stat-value"]}>{stats.completed}</span>
-              <span className={styles["stat-label"]}>Completed</span>
+              <span className={styles["stat-value"]}>{stats.uncommon}</span>
+              <span className={styles["stat-label"]}>Uncommon</span>
             </div>
             <div className={`${styles.stat} ${styles["stat-planned"]}`}>
-              <span className={styles["stat-value"]}>{stats.planned}</span>
-              <span className={styles["stat-label"]}>Planned</span>
+              <span className={styles["stat-value"]}>{stats.rare}</span>
+              <span className={styles["stat-label"]}>Rare</span>
             </div>
           </div>
 
