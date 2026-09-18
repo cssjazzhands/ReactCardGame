@@ -66,10 +66,9 @@ const HomePage = (): JSX.Element => {
   return (
     <div className={styles.page}>
       <div className={styles["demo-banner"]}>
-        ⚠ Demo Application — Sample data only. Not affiliated with or endorsed by NASA.
+        ⚠ Demo Application — Sample data only.
       </div>
       <header className={styles.header}>
-        <img src="/images/nasa-logo.svg" alt="NASA logo" className={styles.logo} />
         <div>
           <h1 className={styles.title}>Critter Card Collectathon</h1>
           <p className={styles.subtitle}>Like bugs? Time to collect them all!</p>
