@@ -30,6 +30,5 @@ type CritterType = {
   fieldName: string;
   latinName: string;
   rarity: CritterRarity;
-  imageURL: string;
   tags: string[];
 }

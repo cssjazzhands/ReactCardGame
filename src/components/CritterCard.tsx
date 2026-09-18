@@ -1,6 +1,5 @@
 import { JSX } from "react";
 import styles from "./critterCard.module.css";
-import { formatDate, formatLaunchAge } from "utils/utils";
 import RarityBadge from "./RarityBadge";
 
 type Props = {
@@ -15,7 +14,7 @@ const CritterCard = ({ critter }: Props): JSX.Element => {
         <h3 className={styles.name}>{critter.latinName}</h3>
         <RarityBadge rarity={critter.rarity} />
       </div>
-      <img src={critter.imageURL} alt={critter.fieldName} className={styles.image} />
+      <img src={`images/entries/${critter.id}.jpg`} alt={critter.fieldName} className={styles.image} />
       <div className={styles.meta}>
         <span>
           <strong>Tags:</strong> {critter.tags.join(", ")}
