@@ -4,17 +4,6 @@ type RespExampleType = {
   envVal: string;
 };
 
-type MissionStatus = "active" | "completed" | "planned";
-
-type MissionType = {
-  id: string;
-  name: string;
-  status: MissionStatus;
-  launchDate: string;
-  target: string;
-  description: string;
-};
-
 type CritterRarity = "common" | "uncommon" | "rare" | "ultra-rare" | "legendary";
 
 type CritterStatsMap = {
