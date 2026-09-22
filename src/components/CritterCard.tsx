@@ -10,11 +10,15 @@ const CritterCard = ({ critter }: Props): JSX.Element => {
   return (
     <div className={styles.card}>
       <div className={styles.header}>
-        <h3 className={styles.name}>{critter.fieldName}</h3>
-        <h3 className={styles.name}>{critter.latinName}</h3>
+        <div className={styles.titles}>
+          <h3 className={styles.fieldName}>{critter.fieldName}</h3>
+          <h3 className={styles.latinName}>{critter.latinName}</h3>
+        </div>
         <RarityBadge rarity={critter.rarity} />
       </div>
-      <img src={`images/entries/${critter.id}.jpg`} alt={critter.fieldName} className={styles.image} />
+      <div className={styles.imageWrapper}>
+        <img src={`images/entries/${critter.id}.jpg`} alt={critter.fieldName} className={styles.image} />
+      </div>
       <div className={styles.meta}>
         <span>
           <strong>Tags:</strong> {critter.tags.join(", ")}

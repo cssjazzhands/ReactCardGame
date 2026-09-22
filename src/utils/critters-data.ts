@@ -2,7 +2,7 @@ export const CRITTER_RARITIES: string[] = [
   "common",
   "uncommon",
   "rare",
-  "ultra rare",
+  "ultra-rare",
   "legendary"
 ];
 

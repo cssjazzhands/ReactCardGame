@@ -10,20 +10,32 @@
   flex-shrink: 0;
 }
 
-.active {
-  background: #14532d;
-  color: #86efac;
-  border: 1px solid #166534;
+.common {
+  background: #a3a3a3;
+  color: #2f2f2f;
+  border: 1px solid #282828;
 }
 
-.completed {
-  background: #1e3a8a;
-  color: #93c5fd;
-  border: 1px solid #1e40af;
+.uncommon {
+  background: #1e8a1e;
+  color: #93fd95;
+  border: 1px solid #1eaf28;
 }
 
-.planned {
+.rare {
+  background: #1c2887;
+  color: #b4ddfe;
+  border: 1px solid #2128a8;
+}
+
+.ultra-rare {
   background: #581c87;
   color: #d8b4fe;
   border: 1px solid #6b21a8;
+}
+
+.legendary {
+  background: #ff7f08;
+  color: #fbff7e;
+  border: 1px solid #742f01;
 }
