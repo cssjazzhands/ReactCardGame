@@ -5,8 +5,8 @@ import TechStackModal from "pages/testroute";
 import { getCritterStats } from "utils/utils";
 import { CRITTER_RARITIES } from "utils/critters-data";
 
-const FILTERS = ["all", ...CRITTER_RARITIES];
-type Filter = (typeof FILTERS)[number];
+const RARITY_FILTERS = ["all", ...CRITTER_RARITIES];
+type RarityFilter = (typeof RARITY_FILTERS)[number];
 
 type ApiEntry = { endpoint: string; status: number; ms: number };
 
@@ -15,11 +15,12 @@ const HomePage = (): JSX.Element => {
   const [versionInfo, setVersionInfo] = useState<RespExampleType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [filter, setFilter] = useState<Filter>("all");
+  const [filter, setFilter] = useState<RarityFilter>("all");
   const [apiLog, setApiLog] = useState<ApiEntry[]>([]);
   const [rawResponses, setRawResponses] = useState<Record<string, string>>({});
   const [expandedRaw, setExpandedRaw] = useState<Set<number>>(new Set());
   const [showStack, setShowStack] = useState(false);
+  const [showFilters, setShowFilters] = useState(false);
 
   useEffect(() => {
     async function loadData() {
@@ -128,15 +129,22 @@ const HomePage = (): JSX.Element => {
           </div>
 
           <div className={styles.filters}>
-            {FILTERS.map((f) => (
-              <button
-                key={f}
-                className={`${styles["filter-btn"]} ${filter === f ? styles["filter-btn-active"] : ""}`}
-                onClick={() => setFilter(f)}
-              >
-                {f.charAt(0).toUpperCase() + f.slice(1)}
-              </button>
-            ))}
+            <button className={styles["filters-btn"]} onClick={() => setShowFilters(!showFilters)}>
+              {showFilters ? "▾ Filters" : "▸ Filters"}
+            </button>
+            {showFilters && (
+              <div className={styles["filter-row"]}>
+                Rarity: {RARITY_FILTERS.map((f) => (
+                  <button
+                    key={f}
+                    className={`${styles["filter-btn"]} ${filter === f ? styles["filter-btn-active"] : ""}`}
+                    onClick={() => setFilter(f)}
+                  >
+                    {f.charAt(0).toUpperCase() + f.slice(1)}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           <div className={styles.grid}>
