@@ -142,7 +142,7 @@ const HomePage = (): JSX.Element => {
           <div className={styles.grid}>
             {filtered.map((critter) => (
               <CritterCard key={critter.id} critter={critter} />
-            ))}
+            )).toSorted((a, b) => a.props.critter.fieldName.localeCompare(b.props.critter.fieldName))}
           </div>
 
           {versionInfo && (

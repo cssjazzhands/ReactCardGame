@@ -11,12 +11,12 @@ const CritterCard = ({ critter }: Props): JSX.Element => {
     <div className={styles.card}>
       <div className={styles.header}>
         <div className={styles.titles}>
-          <h3 className={styles.fieldName}>{critter.fieldName}</h3>
-          <h3 className={styles.latinName}>{critter.latinName}</h3>
+          <h3 className={styles["field-name"]}>{critter.fieldName}</h3>
+          <h3 className={styles["latin-name"]}>{critter.latinName}</h3>
         </div>
         <RarityBadge rarity={critter.rarity} />
       </div>
-      <div className={styles.imageWrapper}>
+      <div className={styles["image-wrapper"]}>
         <img src={`images/entries/${critter.id}.jpg`} alt={critter.fieldName} className={styles.image} />
       </div>
       <div className={styles.meta}>
