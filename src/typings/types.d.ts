@@ -21,11 +21,11 @@ type CritterStatsMap = {
   [K in keyof typeof CritterRarity]: number;
 };
 
-type CritterRarityStats = {
+type CritterRarityFilters = {
   total: number;
 } & CritterStatsMap;
 
-type CritterType = {
+type CritterIdentity = {
   id: string;
   fieldName: string;
   latinName: string;

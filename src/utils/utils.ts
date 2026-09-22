@@ -15,11 +15,11 @@ export function getMissionsByStatus(missions: MissionType[], status: MissionStat
   return missions.filter((m) => m.status === status);
 }
 
-export function getCritterStats(critters: CritterType[], rarities: CritterRarity[]): CritterRarityStats {
-  const statMap: CritterRarityStats = rarities.reduce((acc, rarity) => {
+export function getCritterStats(critters: CritterIdentity[], rarities: CritterRarity[]): CritterRarityFilters {
+  const statMap: CritterRarityFilters = rarities.reduce((acc, rarity) => {
     acc[rarity] = 0;
     return acc;
-  }, { total: 0 } as CritterRarityStats);
+  }, { total: 0 } as CritterRarityFilters);
 
   critters.forEach((critter) => {
     statMap[critter.rarity]++;

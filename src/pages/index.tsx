@@ -11,7 +11,7 @@ type Filter = (typeof FILTERS)[number];
 type ApiEntry = { endpoint: string; status: number; ms: number };
 
 const HomePage = (): JSX.Element => {
-  const [critters, setCritters] = useState<CritterType[]>([]);
+  const [critters, setCritters] = useState<CritterIdentity[]>([]);
   const [versionInfo, setVersionInfo] = useState<RespExampleType | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -30,7 +30,7 @@ const HomePage = (): JSX.Element => {
           fetch("/api/v1/version"),
         ]);
         const ms = Date.now() - t0;
-        const crittersData: CritterType[] = await crittersRes.json();
+        const crittersData: CritterIdentity[] = await crittersRes.json();
         const versionData: RespExampleType = await versionRes.json();
         setCritters(crittersData);
         setVersionInfo(versionData);

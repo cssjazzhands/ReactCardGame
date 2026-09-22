@@ -3,7 +3,7 @@ import styles from "./critterCard.module.css";
 import RarityBadge from "./RarityBadge";
 
 type Props = {
-  critter: CritterType;
+  critter: CritterIdentity;
 };
 
 const CritterCard = ({ critter }: Props): JSX.Element => {

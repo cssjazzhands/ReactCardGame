@@ -6,7 +6,7 @@ export const CRITTER_RARITIES: string[] = [
   "legendary"
 ];
 
-export const CRITTERS: CritterType[] = [{
+export const CRITTERS: CritterIdentity[] = [{
     "id": "monarch_butterfly",
     "fieldName": "Monarch butterfly",
     "latinName": "Danaus plexippus",
