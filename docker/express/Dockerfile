@@ -1,5 +1,5 @@
 # Base image optionally from arg
-ARG EXPRESS_BASE_IMAGE=node:20.11.0-alpine
+ARG EXPRESS_BASE_IMAGE=node:20.19.0-alpine
 
 # # # # # # # #
 # BASE image  #
@@ -31,7 +31,7 @@ COPY --from=builder /serversrc/.local/express/dist/api.js /
 
 # This image is intended to be run with docker-compose. See docker-compose.dev.yml for necessary
 # environment variables
-CMD "node" "/api.js"
+CMD ["node", "api.js"]
 
 
 # # # # # # #
@@ -44,7 +44,7 @@ COPY . /serversrc
 COPY /docker/express/docker-dev-entrypoint.sh /docker-entrypoint.sh
 RUN dos2unix /docker-entrypoint.sh && \
   chmod +x /docker-entrypoint.sh
-  
+
 ENTRYPOINT [ "/docker-entrypoint.sh" ]
 
 # This image is intended to be run with docker-compose. See docker-compose.dev.yml for necessary

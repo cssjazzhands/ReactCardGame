@@ -5,6 +5,8 @@ services:
       context: .
       dockerfile: ./docker/nginx/Dockerfile
     restart: unless-stopped
+    depends_on:
+      - express
     volumes:
       - ./.local/certs:/etc/pki/tls/certs
       - ./.local/private:/etc/pki/tls/private

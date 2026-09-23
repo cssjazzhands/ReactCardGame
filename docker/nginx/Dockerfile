@@ -1,5 +1,5 @@
 ARG NGINX_BASE_IMAGE=nginx:1.23.0-alpine
-ARG NODE_BASE_IMAGE=node:20.9.0-alpine
+ARG NODE_BASE_IMAGE=node:20.19.0-alpine
 
 ### Build the React client
 FROM $NODE_BASE_IMAGE as builder

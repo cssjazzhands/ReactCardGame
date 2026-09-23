@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import styles from "./rarityBadge.module.css";
+import styles from "./RarityBadge.module.css";
 
 type Props = {
   rarity: CritterRarity;
