@@ -1,10 +1,6 @@
 import "utils/loadEnv";
 import { createServer } from "http";
 import app from "./restApi";
-import { commonExample } from "utils/utils";
-// import { createWebSocketServer } from "path/to/websocket";
-
-commonExample();
 
 const server = createServer();
 

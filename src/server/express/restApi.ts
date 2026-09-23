@@ -3,6 +3,7 @@ import express, { Application } from "express";
 import cors from "cors";
 import { Request, Response } from "express";
 import crittersRouter from "./routes/critters";
+import authRouter from "./routes/auth";
 
 const app: Application = express();
 
@@ -25,7 +26,9 @@ app.get(`/api/v1/version`, (_req: Request, res: Response) => {
 });
 
 app.use("/api/v1/critters", crittersRouter);
+app.use("/api/v1/auth", authRouter);
 
 app.use(express.static("./.local/vite/dist"));
+
 
 export default app;
