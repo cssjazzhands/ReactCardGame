@@ -1,0 +1,51 @@
+@import "./modal.module.css";
+
+.leaf-overlay {
+  position: fixed;
+}
+
+.leaf-container-left {
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.leaf-container-right {
+  transform: scaleX(-1);
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.leaf {
+  animation-name: shake;
+  animation-iteration-count: infinite;
+  transform-origin: bottom left;
+  width: 100%;
+  height: auto;
+  animation-duration: 1s;
+  border-radius: 100px;
+}
+
+@for $i from 1 through 4 {
+  .el:nth-child(#{$i}) {
+    background-color: #00ff08;
+    bottom: 0px;
+    left: ($i - 1) * 33%;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform:
+      rotate(0deg)
+      scale(1);
+  }
+  50% {
+    transform:
+      rotate(5deg)
+      scale(1.1);
+  }
+}
