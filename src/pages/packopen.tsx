@@ -1,17 +1,52 @@
-import { JSX, useEffect, useState } from "react";
+import { JSX, useEffect, useState, useMemo } from "react";
 import styles from "./packopen.module.css";
 
 type Props = { onClose: () => void };
+
+const LEAF_COUNT_PER_SIDE = 2;
+
 
 const PackOpenModal = ({ onClose }: Props): JSX.Element => {
   const [pack, setPack] = useState<CritterIdentity[]>([]);
   const [animating, setAnimating] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  const { leftLeaves, rightLeaves } = useMemo(() => {
+    const left: JSX.Element[] = [];
+    const right: JSX.Element[] = [];
+
+    for (let i = 0; i < LEAF_COUNT_PER_SIDE; i++) {
+      const randomLeafLeft = Math.floor(Math.random() * 9) + 1;
+      const randomLeafRight = Math.floor(Math.random() * 9) + 1;
+
+      left.push(
+        <img 
+          src={`/images/leaves/leaf${randomLeafLeft}.png`} 
+          alt="Decorative leaf"
+          key={i}
+          className={styles.leaf} 
+        />
+      );
+
+      right.push(
+        <img 
+          src={`/images/leaves/leaf${randomLeafRight}.png`} 
+          alt="Decorative leaf" 
+          key={i + LEAF_COUNT_PER_SIDE}
+          className={styles.leaf} 
+        />
+      );
+    }
+
+    return { leftLeaves: left, rightLeaves: right };
+  }, []);
+
+
   useEffect(() => {
       const handler = (e: KeyboardEvent) => {
         if (e.key === "Escape") onClose();
       };
+      
       window.addEventListener("keydown", handler);
       async function loadCritterPack() {
         try {
@@ -38,7 +73,10 @@ const PackOpenModal = ({ onClose }: Props): JSX.Element => {
         <button className={styles["close-btn"]} onClick={onClose} aria-label="Close">
           ×
         </button>
-        <div className={styles["leaf-overlay"]}></div>
+        <div className={styles["leaf-overlay"]}>
+          <div className={styles["leaf-container-left"]}>{leftLeaves}</div>
+          <div className={styles["leaf-container-right"]}>{rightLeaves}</div>
+        </div>
       <p>Pack Open Modal</p>
       <button onClick={onClose}>Close</button>
       </div>

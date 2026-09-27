@@ -1,5 +1,3 @@
-import { CRITTERS } from "./critters-data";
-
 export function getCritterStats(critters: CritterIdentity[], rarities: CritterRarity[]): CritterRarityFilters {
   const statMap: CritterRarityFilters = rarities.reduce((acc, rarity) => {
     acc[rarity] = 0;
@@ -13,6 +11,18 @@ export function getCritterStats(critters: CritterIdentity[], rarities: CritterRa
   return statMap;
 }
 
-function generateRandomCritter(): CritterIdentity {
-  return CRITTERS[Math.floor(Math.random() * CRITTERS.length)];
+
+export function getRandomItems<T>(arr: T[], count: number = 3): T[] {
+  // Guard clause if the array is smaller than the requested count
+  if (arr.length <= count) return [...arr];
+  if (arr.length <= 0) return [];
+
+  const result: T[] = [];
+  
+  for (let i = 0; i < count; i++) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    result.push(arr[randomIndex]);
+  }
+
+  return result;
 }

@@ -2,6 +2,7 @@ import { useState, useEffect, JSX } from "react";
 import styles from "./index.module.css";
 import CritterCard from "components/CritterCard";
 import TechStackModal from "pages/testroute";
+import PackOpenModal from "pages/packopen";
 import { getCritterStats } from "utils/utils";
 import { CRITTER_RARITIES } from "utils/critters-data";
 
@@ -20,28 +21,38 @@ const HomePage = (): JSX.Element => {
   const [rawResponses, setRawResponses] = useState<Record<string, string>>({});
   const [expandedRaw, setExpandedRaw] = useState<Set<number>>(new Set());
   const [showStack, setShowStack] = useState(false);
+  const [showPack, setShowPack] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
 
   useEffect(() => {
     async function loadData() {
       const t0 = Date.now();
       try {
-        const [crittersRes, versionRes] = await Promise.all([
-          fetch("/api/v1/critters"),
-          fetch("/api/v1/version"),
+        const [crittersEndpoint, versionEndpoint, packEndpoint] = [
+          "/api/v1/critters",
+          "/api/v1/version",
+          "/api/v1/pack"
+        ];
+        const [crittersRes, versionRes, packRes] = await Promise.all([
+          fetch(crittersEndpoint),
+          fetch(versionEndpoint),
+          fetch(packEndpoint),
         ]);
         const ms = Date.now() - t0;
         const crittersData: CritterIdentity[] = await crittersRes.json();
         const versionData: RespExampleType = await versionRes.json();
+        const packData: PackResp = await packRes.json();
         setCritters(crittersData);
         setVersionInfo(versionData);
         setApiLog([
-          { endpoint: "/api/v1/critters", status: crittersRes.status, ms },
-          { endpoint: "/api/v1/version", status: versionRes.status, ms },
+          { endpoint: crittersEndpoint, status: crittersRes.status, ms },
+          { endpoint: versionEndpoint, status: versionRes.status, ms },
+          { endpoint: packEndpoint, status: packRes.status, ms },
         ]);
         setRawResponses({
-          "/api/v1/critters": JSON.stringify(crittersData, null, 2),
-          "/api/v1/version": JSON.stringify(versionData, null, 2),
+          [crittersEndpoint]: JSON.stringify(crittersData, null, 2),
+          [versionEndpoint]: JSON.stringify(versionData, null, 2),
+          [packEndpoint]: JSON.stringify(packData, null, 2),
         });
       } catch {
         setError("Failed to load data. Is the API server running?");
@@ -77,6 +88,9 @@ const HomePage = (): JSX.Element => {
         <button className={styles["nav-btn"]} onClick={() => setShowStack(true)}>
           Tech Stack ↗
         </button>
+        <button className={styles["nav-btn"]} onClick={() => setShowPack(true)}>
+          Open Pack ↗
+        </button>
       </header>
 
       {loading && <p className={styles.loading}>Loading missions…</p>}
@@ -100,7 +114,7 @@ const HomePage = (): JSX.Element => {
                   </div>
                   {expandedRaw.has(i) && (
                     <pre className={styles["api-raw"]}>
-                      {rawResponses[entry.endpoint]?.slice(0, 600)}
+                      {rawResponses[entry.endpoint]?.slice(0, 1000)}
                       {(rawResponses[entry.endpoint]?.length ?? 0) > 600 && "\n…"}
                     </pre>
                   )}
@@ -161,6 +175,7 @@ const HomePage = (): JSX.Element => {
         </>
       )}
       {showStack && <TechStackModal onClose={() => setShowStack(false)} />}
+      {showPack && <PackOpenModal onClose={() => setShowPack(false)} />}
     </div>
   );
 };

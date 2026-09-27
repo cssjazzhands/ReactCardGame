@@ -29,11 +29,17 @@
   border-radius: 100px;
 }
 
-@for $i from 1 through 4 {
-  .el:nth-child(#{$i}) {
-    background-color: #00ff08;
+@for $i from 1 through 2 {
+  .leaf-container-left.leaf:nth-child(#{$i}) {
     bottom: 0px;
     left: ($i - 1) * 33%;
+  }
+}
+
+@for $i from 1 through 2 {
+  .leaf-container-right.leaf:nth-child(#{$i}) {
+    bottom: 0px;
+    right: ($i - 1) * 33%;
   }
 }
 

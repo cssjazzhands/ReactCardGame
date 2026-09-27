@@ -4,6 +4,11 @@ type RespExampleType = {
   envVal: string;
 };
 
+type PackResp = {
+  version: string;
+  result: string;
+}
+
 type CritterRarity = "common" | "uncommon" | "rare" | "ultra-rare" | "legendary";
 
 type CritterStatsMap = {
